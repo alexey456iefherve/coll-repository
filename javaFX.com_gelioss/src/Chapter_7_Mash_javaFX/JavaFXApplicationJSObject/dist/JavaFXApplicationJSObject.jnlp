@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApplicationJSObject.jnlp">
+  <information>
+    <title>JavaFXApplicationJSObject</title>
+    <vendor>тимур</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources os="Windows" arch="x86">
+    <jfx:javafx-runtime version="2.0+" href="http://download.oracle.com/otn-pub/java/javafx/javafx-windows-i586__Vlatest.exe "/>
+  </resources>
+  <resources os="Windows" arch="x64">
+    <jfx:javafx-runtime version="2.0+" href="http://download.oracle.com/otn-pub/java/javafx/javafx-windows-x64__Vlatest.exe "/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApplicationJSObject.jar" size="13863" download="eager" />
+  </resources>
+  <applet-desc  width="300" height="200" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXApplicationJSObject" />
+  <jfx:javafx-desc  width="300" height="200" main-class="javafxapplication.JavaFXApplication"  name="JavaFXApplicationJSObject" />
+  <update check="background"/>
+</jnlp>

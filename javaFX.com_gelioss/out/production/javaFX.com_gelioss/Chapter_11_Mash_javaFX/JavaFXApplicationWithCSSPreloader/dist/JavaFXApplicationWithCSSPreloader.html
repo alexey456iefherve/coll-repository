@@ -1,0 +1,74 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<!--<script>-->
+    <!--function launchApplication(jnlpfile) {-->
+        <!--dtjava.launch(            {-->
+                <!--url : 'JavaFXApplicationWithCSSPreloader.jnlp',-->
+                <!--jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iSmF2YUZYQXBwbGljYXRpb25XaXRoQ1NTUHJlbG9hZGVyLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPkphdmFGWEFwcGxpY2F0aW9uV2l0aENTU1ByZWxvYWRlcjwvdGl0bGU+DQogICAgPHZlbmRvcj7y6Ozz8DwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5TYW1wbGUgSmF2YUZYIDIuMCBhcHBsaWNhdGlvbi48L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzIG9zPSJXaW5kb3dzIiBhcmNoPSJ4ODYiPg0KICAgIDxqZng6amF2YWZ4LXJ1bnRpbWUgdmVyc2lvbj0iMi4wKyIgaHJlZj0iaHR0cDovL2Rvd25sb2FkLm9yYWNsZS5jb20vb3RuLXB1Yi9qYXZhL2phdmFmeC9qYXZhZngtd2luZG93cy1pNTg2X19WbGF0ZXN0LmV4ZSAiLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxyZXNvdXJjZXMgb3M9IldpbmRvd3MiIGFyY2g9Ing2NCI+DQogICAgPGpmeDpqYXZhZngtcnVudGltZSB2ZXJzaW9uPSIyLjArIiBocmVmPSJodHRwOi8vZG93bmxvYWQub3JhY2xlLmNvbS9vdG4tcHViL2phdmEvamF2YWZ4L2phdmFmeC13aW5kb3dzLXg2NF9fVmxhdGVzdC5leGUgIi8+DQogIDwvcmVzb3VyY2VzPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9IkphdmFGWEFwcGxpY2F0aW9uV2l0aENTU1ByZWxvYWRlci5qYXIiIHNpemU9IjEzNTM1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IkphdmFGWEFwcGxpY2F0aW9uV2l0aENTU1ByZWxvYWRlciIgLz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImphdmFmeGFwcGxpY2F0aW9ud2l0aGNzc3ByZWxvYWRlci5KYXZhRlhBcHBsaWNhdGlvbldpdGhDU1NQcmVsb2FkZXIiICBuYW1lPSJKYXZhRlhBcHBsaWNhdGlvbldpdGhDU1NQcmVsb2FkZXIiID4NCjxwYXJhbSBuYW1lPSJqYXZhZnguZGVmYXVsdC5wcmVsb2FkZXIuc3R5bGVzaGVldCIgdmFsdWU9Ii5kZWZhdWx0LXByZWxvYWRlciB7ICAgICAgLWZ4LWJhY2tncm91bmQtY29sb3I6ICMwMGJmZmY7ICAgICAtZngtcHJlbG9hZGVyLXRleHQ6ICdMb2FkaW5nIEFwcGxpY2F0aW9uISc7ICAgICAgLWZ4LWZvbnQ6IGJvbGQgMjBwdCBBcmlhbDsgICAgICAgfSIvPg0KICAgIDwvamZ4OmphdmFmeC1kZXNjPg0KICA8dXBkYXRlIGNoZWNrPSJiYWNrZ3JvdW5kIi8+DQo8L2pubHA+DQo='-->
+            <!--},-->
+            <!--{-->
+                <!--javafx : '2.0+'-->
+            <!--},-->
+            <!--{}-->
+        <!--);-->
+        <!--return false;-->
+    <!--}-->
+<!--</script>-->
+
+  <script>
+      function getSplash(app) {
+          var p = document.createElement('div');
+          p.style.width  = app.width;
+          p.style.height = app.height;
+          p.style.background="#ffe4b5";
+          p.innerHTML="<h1 align=center>Загружаем JavaFX!</h1>";
+          var im=document.createElement("img");
+          im.setAttribute('src', 'web-files/image.gif');
+          im.setAttribute('hspace', '350');
+          im.setAttribute('vspace', '100');
+          p.appendChild(im);
+          return p;
+      }
+      function javafxEmbed_fxApp() {
+          dtjava.embed(
+              {  id : 'fxApp',
+                  url : 'JavaFXApplicationWithSplash.jnlp',
+                  placeholder : 'javafx-app-placeholder',
+                  width : 800,
+                  height : 600,
+                  jnlp_content : '. . .'  },
+              {  javafx : '2.0+'  },
+              {  onGetSplash: getSplash  }
+          );
+      }
+      <!-- Embed FX application into web page once page is loaded -->
+      dtjava.addOnloadCallback(javafxEmbed_fxApp);
+  </script>
+  <!--<script>-->
+    <!--function javafxEmbed_fxApp() {-->
+        <!--dtjava.embed(-->
+            <!--{-->
+                <!--id : 'fxApp',-->
+                <!--url : 'JavaFXApplicationWithCSSPreloader.jnlp',-->
+                <!--placeholder : 'javafx-app-placeholder',-->
+                <!--width : 800,-->
+                <!--height : 600,-->
+                <!--jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iSmF2YUZYQXBwbGljYXRpb25XaXRoQ1NTUHJlbG9hZGVyLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPkphdmFGWEFwcGxpY2F0aW9uV2l0aENTU1ByZWxvYWRlcjwvdGl0bGU+DQogICAgPHZlbmRvcj7y6Ozz8DwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5TYW1wbGUgSmF2YUZYIDIuMCBhcHBsaWNhdGlvbi48L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzIG9zPSJXaW5kb3dzIiBhcmNoPSJ4ODYiPg0KICAgIDxqZng6amF2YWZ4LXJ1bnRpbWUgdmVyc2lvbj0iMi4wKyIgaHJlZj0iaHR0cDovL2Rvd25sb2FkLm9yYWNsZS5jb20vb3RuLXB1Yi9qYXZhL2phdmFmeC9qYXZhZngtd2luZG93cy1pNTg2X19WbGF0ZXN0LmV4ZSAiLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxyZXNvdXJjZXMgb3M9IldpbmRvd3MiIGFyY2g9Ing2NCI+DQogICAgPGpmeDpqYXZhZngtcnVudGltZSB2ZXJzaW9uPSIyLjArIiBocmVmPSJodHRwOi8vZG93bmxvYWQub3JhY2xlLmNvbS9vdG4tcHViL2phdmEvamF2YWZ4L2phdmFmeC13aW5kb3dzLXg2NF9fVmxhdGVzdC5leGUgIi8+DQogIDwvcmVzb3VyY2VzPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9IkphdmFGWEFwcGxpY2F0aW9uV2l0aENTU1ByZWxvYWRlci5qYXIiIHNpemU9IjEzNTM1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IkphdmFGWEFwcGxpY2F0aW9uV2l0aENTU1ByZWxvYWRlciIgLz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImphdmFmeGFwcGxpY2F0aW9ud2l0aGNzc3ByZWxvYWRlci5KYXZhRlhBcHBsaWNhdGlvbldpdGhDU1NQcmVsb2FkZXIiICBuYW1lPSJKYXZhRlhBcHBsaWNhdGlvbldpdGhDU1NQcmVsb2FkZXIiID4NCjxwYXJhbSBuYW1lPSJqYXZhZnguZGVmYXVsdC5wcmVsb2FkZXIuc3R5bGVzaGVldCIgdmFsdWU9Ii5kZWZhdWx0LXByZWxvYWRlciB7ICAgICAgLWZ4LWJhY2tncm91bmQtY29sb3I6ICMwMGJmZmY7ICAgICAtZngtcHJlbG9hZGVyLXRleHQ6ICdMb2FkaW5nIEFwcGxpY2F0aW9uISc7ICAgICAgLWZ4LWZvbnQ6IGJvbGQgMjBwdCBBcmlhbDsgICAgICAgfSIvPg0KICAgIDwvamZ4OmphdmFmeC1kZXNjPg0KICA8dXBkYXRlIGNoZWNrPSJiYWNrZ3JvdW5kIi8+DQo8L2pubHA+DQo='-->
+            <!--},-->
+            <!--{-->
+                <!--javafx : '2.0+'-->
+            <!--},-->
+            <!--{}-->
+        <!--);-->
+    <!--}-->
+    <!--&lt;!&ndash; Embed FX application into web page once page is loaded &ndash;&gt;-->
+    <!--dtjava.addOnloadCallback(javafxEmbed_fxApp);-->
+<!--</script>-->
+
+</head><body>
+<h2>Test page for <b>JavaFXApplicationWithCSSPreloader</b></h2>
+  <b>Webstart:</b> <a href='JavaFXApplicationWithCSSPreloader.jnlp' onclick="return launchApplication('JavaFXApplicationWithCSSPreloader.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
